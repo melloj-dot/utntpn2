@@ -8,6 +8,8 @@ const useGatosApi = () => {
 
   const initialUrl = import.meta.env.VITE_CAT_API_URL
 
+
+
   useEffect(() => {
     const fetchCats = async () => {
       setLoading(true)
@@ -61,7 +63,7 @@ const useGatosApi = () => {
     cats,
     loading,
     error,
-    catsCount
+/*     catsCount */
   }
 }
 

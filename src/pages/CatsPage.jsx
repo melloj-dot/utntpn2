@@ -10,7 +10,7 @@ function CatsPage() {
   if(loading){
       return (
           <>
-              Cargando personajes...
+              ¡Loading cats! Plese wait...
           </>
       )
   }
@@ -18,13 +18,14 @@ function CatsPage() {
   if(error){
       return (
           <>
-          <h2>Error al cargar los datos</h2>
+          <h2>Error fetching data</h2>
           <p> {error.message} </p>
           </>
       )
   }
 
   return (
+
     <div className='container mx-auto px-4 mt-5' >
       <Cats cats={cats} />
     </div>
