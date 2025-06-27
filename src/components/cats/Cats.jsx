@@ -29,6 +29,7 @@ function Cats({ cats }) {
           onChange={searcher}
           placeholder="Search by cat Tag"
         />
+        <br />
       </div>
     
       {results.map((cat) => (
