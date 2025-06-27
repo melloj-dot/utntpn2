@@ -1,21 +1,31 @@
 import React, { useState } from 'react'
 import {Link} from 'react-router-dom'
-/* import useGatosApi from '../hooks/useGatosApi' */
+import Header from '../components/header-footer/Header';
+import Footer from '../components/header-footer/Footer';
+import useGatosCount from '../hooks/useGatosCount';
 
 function HomePage() {
 
-  /* const [catsCount, setCatsCount] = useState([]) */
-  /* const { catsCount } = useGatosApi() */
-  
+ 
+  const { catsCount} = useGatosCount()
+
   return (
-    <div>
+      
+    <div className='container-fluid text-center'>
+      <Header />
         <h1>Welcome to a Michi's world</h1>
-        {/* <h2>There are {}</h2> */}
-        <Link to="/cats">
-        Ver michis
-        </Link>
+        <h4>There are <b>{catsCount}</b> cats in this world</h4>
+        <main className="flex-fill container-fluid py-4">
+            <div className="row">
+          </div>
+          <Link to="/cats">
+          <button className='btn btn-primary'>See and search cats</button>
+          </Link>
+        </main>
+      
         <br />
-        <img src="https://cataas.com/cat" alt="Michi" />
+        <img className='main-cat' src="https://cataas.com/cat" alt="Michi" />
+      <Footer />
     </div>
   )
 }

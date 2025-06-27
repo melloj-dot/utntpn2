@@ -2,13 +2,12 @@ import { useEffect, useState } from "react"
 
 const useGatosApi = () => {
   const [cats, setCats] = useState([])
-  const [catsCount, setCountCats] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
   const initialUrl = import.meta.env.VITE_CAT_API_URL
 
-
+  const endpoint = initialUrl + 'api/cats?limit=11&skip=1'
 
   useEffect(() => {
     const fetchCats = async () => {
@@ -16,8 +15,7 @@ const useGatosApi = () => {
       setError(null)
 
       try {
-        const response = await fetch(initialUrl)
-        //const catsCount = await fetch('https://cataas.com/api/count')
+        const response = await fetch(endpoint)
 
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`)
@@ -37,8 +35,6 @@ const useGatosApi = () => {
         });
 
         setCats(filteredCats)
-        setCountCats(catsCount)
-        console.log(catsCount)
         console.log(catsData)
         console.log(filteredCats)
 
@@ -51,19 +47,18 @@ const useGatosApi = () => {
       }
     }
 
-    if (initialUrl) {
+    if (endpoint) {
       fetchCats()
     } else {
       setError(new Error("env is not defined in .env"))
       setLoading(false)
     }
-  }, [initialUrl])
+  }, [endpoint])
 
   return {
     cats,
     loading,
     error,
-/*     catsCount */
   }
 }
 

@@ -1,7 +1,8 @@
 import React from 'react'
 import useGatosApi from '../hooks/useGatosApi'
 import Cats from '../components/cats/Cats'
-
+import Header from '../components/header-footer/Header';
+import Footer from '../components/header-footer/Footer';
 
 function CatsPage() {
 
@@ -26,8 +27,10 @@ function CatsPage() {
 
   return (
 
-    <div className='container mx-auto px-4 mt-5' >
+    <div className='container-fluid text-center'>
+      <Header/>
       <Cats cats={cats} />
+      <Footer/>
     </div>
   )
 }
