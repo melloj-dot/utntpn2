@@ -2,10 +2,14 @@ import {Link} from 'react-router-dom'
 
 function Header() {
   return (
-      <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"> 
-      <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> 
-      <span className="fs-4">Michiverso</span></a> 
-      </header>
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">MichisHome</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
   );
 }
 
