@@ -7,7 +7,7 @@ const useGatosApi = () => {
 
   const initialUrl = import.meta.env.VITE_CAT_API_URL
 
-  const endpoint = initialUrl + 'api/cats?limit=25&skip=15'
+  const endpoint = initialUrl + 'api/cats?limit=11'
 
   useEffect(() => {
     const fetchCats = async () => {

@@ -19,7 +19,7 @@ function HomePage() {
         <br/>
         <br/>
         <h1>Welcome to a Michi's world</h1>
-        <h4 className='text-secondary'>There are <b>{catsCount}</b> cats in <a href="https://cataas.com/">this</a> world</h4>
+        <h4 className='text-secondary'>There are <b className='text-success'>{catsCount}</b> cats in <a href="https://cataas.com/">this</a> universe</h4>
         <main className="flex-fill container-fluid py-4">
             <div className="row">
           </div>

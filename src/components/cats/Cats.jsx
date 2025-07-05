@@ -22,6 +22,9 @@ function Cats({ cats }) {
   return (
     <div className='row'>
       <div>
+      <br />
+      <br />{/* Refactorizar */}
+      <br />
         <input
           type="text"
           className="form-control"
@@ -39,7 +42,7 @@ function Cats({ cats }) {
               <h5 className='card-title'>Id: {cat.id}</h5>
             </div>
             <img
-              className="img-cat"
+              className="mx-auto d-block"
               src={`https://cataas.com/cat/${cat.tags[0]}`}
               alt="cat"
             />
