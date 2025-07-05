@@ -1,0 +1,18 @@
+.cuatroscientoscuatro {
+    font-size: 100px;
+}
+
+.container{
+    margin-top: 80px;
+    width: 100vh;
+    height: 100vh;
+    background-image: url('/public/cat_silhouette.jpg')
+}
+
+.footer{
+    text-align: center;
+}
+
+.main{
+    margin-top: 65px;
+}

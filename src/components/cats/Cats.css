@@ -1,5 +1,12 @@
 .mx-auto.d-block{
-    
     width: 250px;
     height: 250px;
+}
+
+.form-control{
+    margin-top: 65px;
+}
+
+.card{
+    margin: 10px;
 }

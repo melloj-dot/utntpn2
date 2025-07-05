@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage.jsx'
 import CatsPage from './pages/CatsPage.jsx'
 import './index.css'
 import App from './App.jsx'
+import NotFoundPage from './pages/NotFoundPage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "/cats",
         element: <CatsPage />
+      },
+      {
+        path: "*",
+        element: <NotFoundPage/>
       }
     ]
   }
