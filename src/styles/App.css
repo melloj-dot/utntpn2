@@ -6,7 +6,7 @@
     margin-top: 80px;
     width: 100vh;
     height: 100vh;
-    background-image: url('/public/cat_silhouette.jpg')
+    background-image: url('/src/assets/img/cat_silhouette.jpg')
 }
 
 .footer{

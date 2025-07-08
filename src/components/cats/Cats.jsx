@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
-import './Cats.css';
+import '/src/styles/Cats.css';
 
 function Cats({ cats }) {
   const [search, setSearch] = useState("");

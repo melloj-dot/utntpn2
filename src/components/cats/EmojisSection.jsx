@@ -1,5 +1,5 @@
 import React from 'react'
-import './EmojisSection.css';
+import '/src/styles/EmojisSection.css';
 
 function EmojisSection() {
   return (

@@ -5,7 +5,7 @@ import Footer from '../components/header-footer/Footer';
 import useGatosCount from '../hooks/useGatosCount';
 import useGatosAdvice from '../hooks/useGatosAdvice';
 import EmojisSection from '../components/cats/EmojisSection';
-import '/src/App.css'
+import '/src/styles/App.css'
 
 function HomePage() {
 

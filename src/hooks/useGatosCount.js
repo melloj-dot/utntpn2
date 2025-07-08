@@ -18,7 +18,7 @@ const useGatosCount = () => {
         const data = await response.json()
 
         setCountCats(data.count)
-        console.log(data.count)
+        //console.log(data.count)
 
       } catch (err) {
         setCountCats([])

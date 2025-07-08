@@ -17,7 +17,7 @@ const useGatosAdvice = () => {
         const data = await response.json()
 
         setcatsAdvice(data.data[0])
-        console.log(data.data[0])
+        //console.log(data.data[0])
 
       } catch (err) {
         setCountCats([])

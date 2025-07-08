@@ -35,8 +35,8 @@ const useGatosApi = () => {
         });
 
         setCats(filteredCats)
-        console.log(catsData)
-        console.log(filteredCats)
+        //console.log(catsData)
+        //console.log(filteredCats)
 
       } catch (err) {
         console.error(err)

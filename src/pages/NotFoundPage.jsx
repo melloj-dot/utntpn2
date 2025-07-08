@@ -1,6 +1,6 @@
 // NotFoundPage.js
 import React from 'react';
-import '/src/App.css'
+import '/src/styles/App.css'
 import Header from '../components/header-footer/Header';
 import Footer from '../components/header-footer/Footer';
 
