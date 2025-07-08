@@ -9,11 +9,11 @@ function NotFoundPage() {
   return (
     <>
     <Header/>
-        <div className='container'>
-      <div className="row">
-        <h1> <strong className='cuatroscientoscuatro'>404</strong> - Página no encontrada</h1>
-        <p>Lo sentimos, la página que buscas no existe.</p>
-      </div>
+      <div className='container'>
+        <div className="row">
+          <h1> <strong className='cuatroscientoscuatro'>404</strong> - Página no encontrada</h1>
+          <p>Lo sentimos, la página que buscas no existe.</p>
+        </div>
     </div>
     <Footer/>
     </>
