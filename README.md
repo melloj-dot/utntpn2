@@ -5,20 +5,20 @@ This website is an application focused on cats! On the home page, you'll always 
 ## Steps to Deploy
 Follow these steps to get the application up and running locally:
 
-Clone the repository:
+### Clone the repository:
 
 ```git clone https://github.com/melloj-dot/utntpn2.git```
-Install dependencies:
+### Install dependencies:
 Navigate into the cloned repository directory and install the necessary packages:
 
 ```cd utntpn2```
 ```npm install or npm i```
 
-Create an .env file:
+### Create an .env file:
 In the root of the project, create a file named .env and add the following key:
 
 ```VITE_CAT_API_URL = 'https://cataas.com/'```
-Run the application:
+### Run the application:
 Start the development server with one of the following commands:
 
 ```npm run dev```
