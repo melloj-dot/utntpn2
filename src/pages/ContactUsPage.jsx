@@ -58,11 +58,11 @@ function ContactUs() {
 
 
   return (
-    <div className="container-fluid">
+    <div className='contactForm'>
       <Header/> 
-      <div className="container">
+      <div className="row">
         <div className="card shadow">
-          <div className="card-header text-black">
+          <div className="card-header text-white">
             <h1>Contáctanos</h1>
           </div>
           <div className="card-body">
