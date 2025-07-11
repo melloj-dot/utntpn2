@@ -7,8 +7,10 @@ Follow these steps to get the application up and running locally:
 
 ### Clone the repository:
 
-```bash```
+```bash
 git clone https://github.com/melloj-dot/utntpn2.git
+```
+
 
 ### Install dependencies:
 Navigate into the cloned repository directory and install the necessary packages:
