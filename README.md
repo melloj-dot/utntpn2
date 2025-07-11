@@ -1,12 +1,46 @@
-# React + Vite
+Michis😺
+Summary
+This website is an application focused on cats! On the home page, you'll always find a random cat fact and a beautiful random cat image. You can explore and search for various felines by tags, making it easy to find your favorite cat images.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Steps to Deploy
+Follow these steps to get the application up and running locally:
 
-Currently, two official plugins are available:
+Clone the repository:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+git clone https://github.com/melloj-dot/utntpn2.git
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install dependencies:
+Navigate into the cloned repository directory and install the necessary packages:
+
+cd utntpn2
+npm install
+
+
+(You can also use npm i as a shorthand.)
+
+Create an .env file:
+In the root of the project, create a file named .env and add the following key:
+
+VITE_CAT_API_URL = 'https://cataas.com/'
+
+
+Run the application:
+Start the development server with one of the following commands:
+
+npm run dev
+# or
+npm run start
+
+
+Technologies Used
+
+HTML
+
+CSS
+
+React JS + Vite
+
+Bootswatch: A collection of free themes for Bootstrap, used to style the application: https://bootswatch.com/
+
+Cataas API: The API providing the cat images and tags, accessible at https://cataas.com/.
