@@ -11,24 +11,28 @@ Follow these steps to get the application up and running locally:
 git clone https://github.com/melloj-dot/utntpn2.git
 ```
 
-
 ### Install dependencies:
 Navigate into the cloned repository directory and install the necessary packages:
 
-```bash```
+```bash
 cd utntpn2
+```
+```bash
 npm install or npm i
-
+```
 ### Create an .env file:
 In the root of the project, create a file named .env and add the following key:
 
-```.env```
+```.env
 VITE_CAT_API_URL = 'https://cataas.com/'
+```
 
 ### Run the application:
 Start the development server with one of the following commands:
 
-```npm run dev```
+```bash
+npm run dev
+```
 
 ## Technologies Used
 React JS + Vite: A modern JavaScript library for building user interfaces, bundled with Vite for a fast development experience.
