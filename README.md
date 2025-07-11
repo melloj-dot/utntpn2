@@ -18,7 +18,11 @@ Navigate into the cloned repository directory and install the necessary packages
 cd utntpn2
 ```
 ```bash
-npm install or npm i
+npm install 
+```
+or 
+```bash
+npm i
 ```
 ### Create an .env file:
 In the root of the project, create a file named .env and add the following key:
